@@ -58,9 +58,9 @@ export default function App() {
           </span>
         );
       })}
-      <footer class="footer">
-        <div class="container">
-          <div class="connect">Contact Me</div>
+      <footer className="footer">
+        <div className="container">
+          <div className="connect">Contact Me</div>
           <div>
             <a href="https://www.facebook.com/neerajvermadav/">
               <FontAwesomeIcon className="socialIcons" icon={faFacebook} />
@@ -75,7 +75,7 @@ export default function App() {
               <FontAwesomeIcon className="socialIcons" icon={faGithub} />
             </a>
           </div>
-          <div class="mail">Mail : neeraj.vr09@gmail.com</div>
+          <div className="mail">Mail : neeraj.vr09@gmail.com</div>
         </div>
       </footer>
     </div>
