@@ -68,7 +68,7 @@ export default function App() {
         <div className="emojiInput">
           <input onChange={changeHandler} />
         </div>
-        <h3>{meaning}</h3>
+        <h3 style={{ padding: "20px" }}>{meaning}</h3>
         {emojiWeHave.map((emoji) => {
           return (
             <span
