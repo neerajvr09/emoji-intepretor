@@ -69,17 +69,19 @@ export default function App() {
           <input onChange={changeHandler} />
         </div>
         <h3 style={{ padding: "20px" }}>{meaning}</h3>
-        {emojiWeHave.map((emoji) => {
-          return (
-            <span
-              key={emoji}
-              className="listItem"
-              onClick={() => clickHandler(emoji)}
-            >
-              {emoji}
-            </span>
-          );
-        })}
+        <div className="emojiList">
+          {emojiWeHave.map((emoji) => {
+            return (
+              <span
+                key={emoji}
+                className="listItem"
+                onClick={() => clickHandler(emoji)}
+              >
+                {emoji}
+              </span>
+            );
+          })}
+        </div>
       </div>
 
       <footer className="footer">

@@ -22,6 +22,11 @@ input {
   width: 200px;
   padding: 10px;
 }
+.emojiList {
+  align-content: center;
+  margin: auto;
+  max-width: 550px;
+}
 .listItem {
   padding: 1rem;
   font-size: 2rem;
