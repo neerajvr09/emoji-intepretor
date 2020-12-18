@@ -3,6 +3,8 @@
   margin: 0;
 }
 .App {
+  height: 100vh;
+  padding-top: 20px;
   text-align: center;
 }
 img {
@@ -27,9 +29,6 @@ input {
 }
 
 .footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
   background-color: #0b092c;
 }
 .footer .container {
