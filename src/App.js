@@ -58,27 +58,30 @@ export default function App() {
   }
 
   return (
-    <div className="App">
-      <h1 style={{ fontFamily: "Poppins" }}>Emoji Intepretor</h1>
-      <img
-        src="https://woztell.com/wp-content/uploads/2019/10/59076-Convertido.png"
-        alt=""
-      />
-      <div className="emojiInput">
-        <input onChange={changeHandler} />
+    <div>
+      <div className="App">
+        <h1 style={{ fontFamily: "Poppins" }}>Emoji Intepretor</h1>
+        <img
+          src="https://woztell.com/wp-content/uploads/2019/10/59076-Convertido.png"
+          alt=""
+        />
+        <div className="emojiInput">
+          <input onChange={changeHandler} />
+        </div>
+        <h3>{meaning}</h3>
+        {emojiWeHave.map((emoji) => {
+          return (
+            <span
+              key={emoji}
+              className="listItem"
+              onClick={() => clickHandler(emoji)}
+            >
+              {emoji}
+            </span>
+          );
+        })}
       </div>
-      <h3>{meaning}</h3>
-      {emojiWeHave.map((emoji) => {
-        return (
-          <span
-            key={emoji}
-            className="listItem"
-            onClick={() => clickHandler(emoji)}
-          >
-            {emoji}
-          </span>
-        );
-      })}
+
       <footer className="footer">
         <div className="container">
           <div className="connect">Contact Me</div>
