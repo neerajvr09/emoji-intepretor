@@ -19,7 +19,28 @@ export default function App() {
     "😌": "Relieved Face",
     "😤": "Mad Face",
     "😖": "Confounded Face",
-    "😰": "Anxious Face with Sweat"
+    "😰": "Anxious Face with Sweat",
+    "😽": "Kissing Cat",
+    "🙀": "Weary Cat",
+    "😿": "Crying Cat",
+    "😾": "Pouting Cat",
+    "💋": "Kiss Mark",
+    "👋": "Waving Hand",
+    "😡": "Pouting Face",
+    "😠": "Angry Face",
+    "😇": "Smiling Face with Halo",
+    "💦": "Sweat Droplets",
+    "😈": "Smiling Face with Horns",
+    "👿": "Angry Face with Horns",
+    "💀": "Skull",
+    "🤡": "Clown Face",
+    "👹": "Ogre",
+    "👺": "Goblin",
+    "👻": "Ghost",
+    "🙈": "See-No-Evil Monkey",
+    "🖖": "Vulcan Salute",
+    "🐩": "Poodle",
+    "🐷": "Pig Face"
   };
   var emojiWeHave = Object.keys(emojiDictionary);
 
